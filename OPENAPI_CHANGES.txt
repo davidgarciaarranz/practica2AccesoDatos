@@ -27,10 +27,3 @@ Acciones realizadas (comprobaciones):
 
 Observaciones:
 - Se detectó inicialmente un fallo de arranque por incompatibilidades de SpringDoc con las dependencias existentes (excepción relacionada con HATEOAS/DataRest). Se resolvió añadiendo la dependencia HATEOAS o excluyendo las autoconfiguraciones no deseadas.
-- No se hizo commit ni push de estos cambios (están en el workspace local). No realicé cambios en otros ficheros del proyecto salvo los indicados arriba.
-
-Si quieres, puedo:
-- Crear un commit y push en una rama y abrir un PR con estos cambios (ahora no lo hago, según tu indicación "dejalo").
-- Añadir `app.out.log` y `app.err.log` a `.gitignore` si quieres limpiar el estado del repositorio.
-
-Fin del archivo.
